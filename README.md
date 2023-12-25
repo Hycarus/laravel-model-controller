@@ -17,7 +17,9 @@ es. php artisan make:model Movie
 6 - Create la rotta e un controller che gestirà la rotta / (home) e uno per i libri
 es. php artisan make:controller PageController
 
-7 - All’interno della funzione index() del controller, recuperate tutti i film dal database e passateli alla view, che quindi li visualizzerà a schermo, tramite delle card. 8. Stilare il layout nei dettagli con Sass
+7 - All’interno della funzione index() del controller, recuperate tutti i film dal database e passateli alla view, che quindi li visualizzerà a schermo, tramite delle card.
+
+8 - Stilare il layout nei dettagli con Sass
 
 ## BONUS:
 
