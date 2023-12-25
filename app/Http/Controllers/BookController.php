@@ -3,11 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Book;
 
 class BookController extends Controller
 {
     public function index()
     {
-        return view('pages.books.index');
+        $bookList = Book::all();
+        return view('pages.books.index', compact('bookList'));
     }
 }
