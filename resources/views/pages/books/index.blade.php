@@ -11,7 +11,7 @@
                         <img src="{{ $book->cover_image }}" class="card-img-top" alt="{{ $book->title }}">
                         <div class="card-body">
                             <h5 class="card-title">{{ $book->title }}</h5>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="{{ route('books.show', $book->id) }}" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
