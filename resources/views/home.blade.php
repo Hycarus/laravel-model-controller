@@ -5,8 +5,8 @@
 @section('content')
     <main>
         <h1>Home Page</h1>
-        <a href="">Movies</a>
-        <a href="">Books</a>
+        <a href="{{ route('movies.index') }}">Movies</a>
+        <a href="{{ route('books.index') }}">Books</a>
     </main>
 
 @endsection
